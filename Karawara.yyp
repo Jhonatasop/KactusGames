@@ -35,7 +35,9 @@
   "name":"Karawara",
   "resources":[
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
+    {"id":{"name":"obj_curupira","path":"objects/obj_curupira/obj_curupira.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_saci","path":"objects/obj_saci/obj_saci.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_curupira","path":"sprites/spr_curupira/spr_curupira.yy",},},
