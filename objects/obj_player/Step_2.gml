@@ -18,7 +18,8 @@ if (_col)
 	{
 		x = _col.bbox_right + (x - bbox_left);
 	}
-	// uma vez que eu colidir, nao importa o lado, eu paro
+	
+	//uma vez que eu colidi, não importa o lado, eu paro
 	velh = 0;
 
 }
@@ -34,7 +35,7 @@ if (_col)
 	{
 		//indo para baixo
 		y = _col.bbox_top + (y - bbox_bottom);
-	}
+	}	
 	if (velv < 0)
 	{
 		//indo para cima
