@@ -21,9 +21,35 @@ if (_chao)
 	{
 		velv = -vel_jump;
 	}
+	
+	//se eu estou no chao e me movendo
+	if (velh != 0)
+	{
+		//mudo a sprite
+		sprite_index = spr_player_run;
+		//faço ele olhar para onde estou indp
+		image_xscale = sign(velh);
+	}
+	else
+	{
+	sprite_index = spr_player_idle;
+	}
 }
-else
+else //nao to no chao
 {
+	// mudando a sprite
+	if (velv < 0)
+	{
+	sprite_index = spr_player_jump;
+	}
+	else
+	{
+		sprite_index = spr_player_fall;
+	}
 	// gravidade
 	velv	+= grav;
+	if (velh != 0)
+	{
+		image_xscale = sign (velh);
+	}
 }

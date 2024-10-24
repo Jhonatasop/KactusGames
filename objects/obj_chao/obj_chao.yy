@@ -34,5 +34,5 @@
     "path":"sprites/spr_chao/spr_chao.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

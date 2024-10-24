@@ -3,7 +3,7 @@
 
 velh	= 0;
 velv	= 0;
-vel		= 5;
+vel		= 3;
 grav	= .3;
 vel_jump	= 7;
 
