@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 
 //controlando o player
+var _chao = place_meeting(x, y + 1, obj_chao);
 
 var _left, _right, _jump;
 _left = keyboard_check(inputs.left);
@@ -14,7 +15,15 @@ velh = (_right - _left) * vel;
 velv	+= grav;
 
 //pulando
-if (_jump)
+if (_chao)
 {
-	velv = -vel_jump;
+	if (_jump)
+	{
+		velv = -vel_jump;
+	}
+}
+else
+{
+	// gravidade
+	velv	+= grav;
 }
