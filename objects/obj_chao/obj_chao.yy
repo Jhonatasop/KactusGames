@@ -33,6 +33,9 @@
     "name":"spr_chao",
     "path":"sprites/spr_chao/spr_chao.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_chao",
+    "path":"sprites/spr_chao/spr_chao.yy",
+  },
   "visible":false,
 }
