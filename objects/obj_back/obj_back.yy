@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_background",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_back",
+  "eventList":[],
   "managed":true,
-  "name":"obj_background",
+  "name":"obj_back",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_background",
-    "path":"sprites/sprite_background/sprite_background.yy",
+    "name":"spr_background",
+    "path":"sprites/spr_background/spr_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,
