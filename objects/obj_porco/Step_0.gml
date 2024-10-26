@@ -34,12 +34,12 @@ if (_chao)
 	//controlando a animação do inimigo
 	if (velh != 0)
 	{
-		sprite_index = spr_ghost
+		sprite_index = spr_porco_run
 		image_xscale = sign(velh);
 	}
 	else
 	{
-		sprite_index = spr_ghost
+		sprite_index = spr_porco_idle
 	}
 	
 	// se eu bater na parede, eu mudo de direção
