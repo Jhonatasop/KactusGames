@@ -45,6 +45,23 @@ else //nao to no chao
 	else
 	{
 		sprite_index = spr_player_fall;
+		
+		// se eu estou indo pára baixo, posso cair na cabeça do inimigo
+		var _inimigo = instance_place(x, y +1, obj_inimigo_pai);
+		
+		//se eu ncai no inimigo
+		if(_inimigo)
+		{
+			// se o inimigo n ta morto
+			if (_inimigo.morto == false)
+			{
+				//subo no ar, novamente
+				velv= -vel_jump
+			
+				// avisando ao inimigo q ele tomou dano
+				_inimigo.dano =true;
+			}
+		}
 	}
 	// gravidade
 	velv	+= grav;
@@ -53,3 +70,4 @@ else //nao to no chao
 		image_xscale = sign (velh);
 	}
 }
+
