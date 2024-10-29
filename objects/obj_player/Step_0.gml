@@ -10,8 +10,11 @@ _left = keyboard_check(inputs.left);
 _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 
-
-velh = (_right - _left) * vel;
+//só posso me controlar se eu nao tomei dano = se o timer do dano esta zerado
+if (timer_dano <= 0)
+{
+	velh = (_right - _left) * vel;
+}
 
 
 //pulando
@@ -47,11 +50,12 @@ else //nao to no chao
 		sprite_index = spr_player_fall;
 		
 		// se eu estou indo pára baixo, posso cair na cabeça do inimigo
-		var _inimigo = instance_place(x, y +1, obj_inimigo_pai);
+		var _inimigo = instance_place(x, y + 5, obj_inimigo_pai);
 		
 		//se eu ncai no inimigo
 		if(_inimigo)
 		{
+			dano = false;
 			// se o inimigo n ta morto
 			if (_inimigo.morto == false)
 			{
@@ -70,4 +74,46 @@ else //nao to no chao
 		image_xscale = sign (velh);
 	}
 }
+
+if (dano)
+{
+	sprite_index = spr_player_hurt;
+}
+
+// se o timer do dano e maior que 0, eu diminuo ele
+if (timer_dano > 0)
+{
+	timer_dano--;
+}
+else
+{
+	//acabou o timer do dano 
+	dano = false;
+}
+if (inv_timer > 0)
+{
+	inv_timer--;
+	
+	image_alpha = .7;
+}
+else
+{
+	image_alpha = 1;
+}
+
+
+// tomando dano
+var _inimigo = instance_place(x, y, obj_inimigo_pai);
+
+if (_inimigo && inv_timer <= 0)
+{
+	if (_inimigo.morto == false && _inimigo.dano == false)
+	{
+		dano = true;
+		//valor do timer dano
+		timer_dano = tempo_dano;
+		inv_timer = inv_tempo;
+	}
+}
+
 

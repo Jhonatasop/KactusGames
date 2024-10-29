@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tatu_idle",
   "bboxMode":0,
-  "bbox_bottom":51,
+  "bbox_bottom":50,
   "bbox_left":0,
   "bbox_right":59,
   "bbox_top":19,
