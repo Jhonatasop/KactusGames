@@ -1,7 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if (alarm[0] <= 0) 
+
+if (sprite_index == spr_player_dead)
 {
-	vida	-= 1;
-	alarm [0] = 180
+	image_speed = 0;
+	image_index = 3;
+
 }

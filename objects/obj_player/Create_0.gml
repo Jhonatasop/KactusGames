@@ -6,6 +6,7 @@ velv		= 0;
 vel			= 3;
 grav		= .3;
 vel_jump	= 7;
+morto		= false;
 
 //combate
 dano		= false;
@@ -15,9 +16,9 @@ timer_dano	= 0;
 inv_tempo	= room_speed * 1.5;
 inv_timer	= 0;
 
-alfa_hit = 0;
+//alfa_hit = 0;
 vida		 =3;
-alarm[0]	= 0;
+//alarm[0]	= 0;
 
 
 inputs = {

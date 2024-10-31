@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 if (morto)
 {
-	sprite_index = spr_morcego;
+	sprite_index = spr_morcego_dead;
 	
 	//sumindo se acabou a animação
 	if (image_speed <= 0)
@@ -67,7 +67,7 @@ if (_chao)
 	// se eu n posso cair, entao quando eu for cair, eu mudo de direção
 	if (pode_cair == false)
 	{
-		if (place_meeting(x + (velh* 10), y + 1, obj_chao) == false)
+		if (place_meeting(x + (velh* 20), y + 1, obj_chao) == false)
 		{
 			//se eu n posso cair e n estou tocando no chao, eu mudo de direção
 			velh *= -1;
@@ -88,6 +88,6 @@ else
 //checando se eu estou tomando dano
 if (dano && morto == false)
 {
-	sprite_index = spr_morcego
+	sprite_index = spr_morcego_dmg
 	velh = 0;
 }
