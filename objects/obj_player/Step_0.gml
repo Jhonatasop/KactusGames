@@ -103,17 +103,37 @@ else
 
 
 // tomando dano
-var _inimigo = instance_place(x, y, obj_inimigo_pai);
+//var _inimigo = instance_place(x, y, obj_inimigo_pai);
 
-if (_inimigo && inv_timer <= 0)
+//if (_inimigo && inv_timer <= 0)
+//{
+//	if (_inimigo.morto == false && _inimigo.dano == false)
+//	{
+//		dano = true;
+//		//valor do timer dano
+//		timer_dano = tempo_dano;
+//		inv_timer = inv_tempo;
+//	}
+//}
+
+//combate
+
+if alarm[0] > 0 
 {
-	if (_inimigo.morto == false && _inimigo.dano == false)
+	if image_alpha >= 1
 	{
-		dano = true;
-		//valor do timer dano
-		timer_dano = tempo_dano;
-		inv_timer = inv_tempo;
+		alfa_hit = -0.05;
+	} 
+	else if image_alpha <=0
+	{
+		alfa_hit = 0.05;
 	}
+	
+	image_alpha += alfa_hit;
+}
+else
+{
+	image_alpha =1;
 }
 
 

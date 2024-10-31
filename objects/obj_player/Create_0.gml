@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
+//movimentação
 velh		= 0;
 velv		= 0;
 vel			= 3;
@@ -12,9 +12,12 @@ dano		= false;
 tempo_dano	= room_speed * 0.5;
 timer_dano	= 0;
 
-
 inv_tempo	= room_speed * 1.5;
 inv_timer	= 0;
+
+alfa_hit = 0;
+vida		 =3;
+alarm[0]	= 0;
 
 
 inputs = {

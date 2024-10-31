@@ -6,8 +6,8 @@
   "name":"obj_back",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"back",
+    "path":"folders/Objetos/back.yy",
   },
   "parentObjectId":null,
   "persistent":false,

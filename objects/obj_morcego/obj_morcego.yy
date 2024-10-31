@@ -1,20 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ghost",
+  "%Name":"obj_morcego",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ghost",
+  "name":"obj_morcego",
   "overriddenProperties":[],
   "parent":{
     "name":"inimigos",
     "path":"folders/Objetos/inimigos.yy",
   },
   "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
+    "name":"obj_inimigo_pai",
+    "path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ghost",
-    "path":"sprites/spr_ghost/spr_ghost.yy",
+    "name":"spr_morcego",
+    "path":"sprites/spr_morcego/spr_morcego.yy",
   },
   "spriteMaskId":null,
   "visible":true,

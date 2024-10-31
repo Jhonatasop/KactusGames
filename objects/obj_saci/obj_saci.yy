@@ -6,8 +6,8 @@
   "name":"obj_saci",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"boss",
+    "path":"folders/Objetos/boss.yy",
   },
   "parentObjectId":null,
   "persistent":false,

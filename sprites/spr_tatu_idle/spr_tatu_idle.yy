@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"tatu",
-    "path":"folders/Sprites/inimigos/tatu.yy",
+    "path":"folders/Sprites/inimigos/porco/tatu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

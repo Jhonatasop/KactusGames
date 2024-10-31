@@ -10,8 +10,8 @@
   "name":"obj_porco",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"inimigos",
+    "path":"folders/Objetos/inimigos.yy",
   },
   "parentObjectId":{
     "name":"obj_inimigo_pai",
