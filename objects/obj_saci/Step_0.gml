@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 if (morto)
 {
-	sprite_index = spr_porco_dead;
+	sprite_index = spr_saci_dead;
 	
 	//sumindo se acabou a animação
 	if (image_speed <= 0)
@@ -47,13 +47,10 @@ if (_chao)
 	//controlando a animação do inimigo
 	if (velh != 0 && dano == false)
 	{
-		sprite_index = spr_porco_run
+		sprite_index = spr_saci_run
 		image_xscale = sign(velh);
 	}
-	else
-	{
-		sprite_index = spr_porco_idle
-	}
+	
 	
 	// se eu bater na parede, eu mudo de direção
 	if (place_meeting(x + velh, y, obj_chao))
@@ -85,6 +82,6 @@ else
 //checando se eu estou tomando dano
 if (dano && morto == false)
 {
-	sprite_index = spr_porco_dano
+	sprite_index = spr_saci_dano
 	velh = 0;
 }

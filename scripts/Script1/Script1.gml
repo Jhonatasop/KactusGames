@@ -5,4 +5,4 @@ function Script1(){
 }
 
 
-//randomize();
+randomize();

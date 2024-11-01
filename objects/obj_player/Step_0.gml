@@ -2,6 +2,9 @@
 // Você pode escrever seu código neste editor
 
 //controlando o player
+
+if (morto) return;
+
 var _chao = place_meeting(x, y + 1, obj_chao);
 
 
@@ -130,24 +133,25 @@ if (_inimigo && inv_timer <= 0)
 			
 
             // Verifica se a vida chegou a zero
-            if (vida <= 0 )
-            {
-				morto =true;
-                // Executa a ação de morte
-                sprite_index = spr_player_dead; // Substitua pelo sprite de morte
-				if (morto)
+           if (vida <= 0)
+			{
+			    morto = true;
+			    sprite_index = spr_player_dead;
+			    velh = 0; // Parar movimento horizontal
+			    velv = 0; // Parar movimento vertical
+			    alarm[0] = 180; // Configura o alarme para reiniciar ou destruir o objeto
+			    dano = false; // Desativa a possibilidade de tomar dano
+				if (image_speed <= 0)
 				{
-	
-					sprite_index = spr_player_dead;
-					velh =0;
-					alarm[0] = 180; // Aguardando 60 passos antes de reiniciar ou finalizar o jogo
-					 // Desativa a possibilidade de tomar dano até que o alarme expire
-					dano = false;
+					image_alpha -= 0.01;
 				}
-                
-               
-                inv_timer = 0; // Desabilita o timer de invencibilidade
-            }
+			}
+			if (morto && sprite_index == spr_player_dead && image_index >= image_number - 1)
+			{
+			    image_speed = 0; // Pausar no último quadro da animação
+			    image_index = image_number - 1; // Garantir que esteja no último quadro
+			}
+
         }
     }
 }
@@ -173,33 +177,5 @@ else
     image_alpha = 1;
 }
 
-// Evento do alarme 0
-if (alarm[0] == 0)
-{
-    instance_destroy(); // Remove o personagem atual, se necessário
-    room_restart(); // Reinicia a sala ou qualquer outra lógica necessária
-}
-
-
-
-//combate
-
-//if alarm[0] > 0 
-//{
-//	if image_alpha >= 1
-//	{
-//		alfa_hit = -0.05;
-//	} 
-//	else if image_alpha <=0
-//	{
-//		alfa_hit = 0.05;
-//	}
-//	
-//	image_alpha += alfa_hit;
-//}
-//else
-//{
-//	image_alpha =1;
-//}
 
 

@@ -4,3 +4,5 @@
 draw_self();
 
 //draw_text(x, y -100, timer_dano);
+
+draw_text(x, y -100, vida);
