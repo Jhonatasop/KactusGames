@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo_pai",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_token",
+  "eventList":[],
   "managed":true,
-  "name":"obj_inimigo_pai",
+  "name":"obj_token",
   "overriddenProperties":[],
   "parent":{
-    "name":"parentes",
-    "path":"folders/Objetos/parentes.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
+    "name":"obj_pickup_parent",
+    "path":"objects/obj_pickup_parent/obj_pickup_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_token",
+    "path":"sprites/spr_token/spr_token.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

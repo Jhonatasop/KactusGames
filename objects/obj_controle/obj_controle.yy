@@ -8,8 +8,8 @@
   "name":"obj_controle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"parentes",
+    "path":"folders/Objetos/parentes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

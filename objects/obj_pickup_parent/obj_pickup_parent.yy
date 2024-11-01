@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo_pai",
+  "%Name":"obj_pickup_parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inimigo_pai",
+  "name":"obj_pickup_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"parentes",
     "path":"folders/Objetos/parentes.yy",
   },
-  "parentObjectId":{
-    "name":"obj_entidade",
-    "path":"objects/obj_entidade/obj_entidade.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
