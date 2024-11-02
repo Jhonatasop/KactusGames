@@ -12,7 +12,7 @@ var c = place_meeting(x, y + 1, obj_player) or place_meeting(x,y-1, obj_player);
 if(c)
 {
 	with(obj_player){
-		y +=vspd;
+		y +=other.vspd;
 	}
 }
 
