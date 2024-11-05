@@ -51,6 +51,7 @@
   },
   "name":"Karawara",
   "resources":[
+    {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"obj_back","path":"objects/obj_back/obj_back.yy",},},
     {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},},
