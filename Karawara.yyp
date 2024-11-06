@@ -103,7 +103,6 @@
     {"id":{"name":"spr_saci_dano","path":"sprites/spr_saci_dano/spr_saci_dano.yy",},},
     {"id":{"name":"spr_saci_dead","path":"sprites/spr_saci_dead/spr_saci_dead.yy",},},
     {"id":{"name":"spr_saci_idle","path":"sprites/spr_saci_idle/spr_saci_idle.yy",},},
-    {"id":{"name":"spr_saci_run_1","path":"sprites/spr_saci_run_1/spr_saci_run_1.yy",},},
     {"id":{"name":"spr_saci_run","path":"sprites/spr_saci_run/spr_saci_run.yy",},},
     {"id":{"name":"spr_tatu_idle","path":"sprites/spr_tatu_idle/spr_tatu_idle.yy",},},
     {"id":{"name":"spr_token","path":"sprites/spr_token/spr_token.yy",},},
