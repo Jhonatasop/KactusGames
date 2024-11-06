@@ -10,15 +10,15 @@ morto		= false;
 
 //combate
 dano		= false;
-tempo_dano	= room_speed * 0.5;
+tempo_dano	= room_speed * 1;
 timer_dano	= 0;
 
-inv_tempo	= room_speed * 1.5;
+inv_tempo	= room_speed * 2;
 inv_timer	= 0;
 
-//alfa_hit = 0;
-vida		 =3;
-//alarm[0]	= 0;
+vida_max = 5;
+vida		 = vida_max;
+
 
 
 inputs = {

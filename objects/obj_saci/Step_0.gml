@@ -40,7 +40,7 @@ if (_chao)
 		
 		
 		//resetando o tempo
-		tempo_decidir_andar = room_speed * 2;
+		tempo_decidir_andar = room_speed * 1;
 	}
 	
 	
