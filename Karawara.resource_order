@@ -14,5 +14,6 @@
     {"name":"spr_npc","order":8,"path":"sprites/spr_npc/spr_npc.yy",},
     {"name":"spr_token","order":1,"path":"sprites/spr_token/spr_token.yy",},
     {"name":"spt_teste","order":9,"path":"sprites/spt_teste/spt_teste.yy",},
+    {"name":"teste_1","order":10,"path":"sprites/teste_1/teste_1.yy",},
   ],
 }

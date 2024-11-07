@@ -114,6 +114,7 @@
     {"id":{"name":"sprite_background","path":"sprites/sprite_background/sprite_background.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
     {"id":{"name":"spt_teste","path":"sprites/spt_teste/spt_teste.yy",},},
+    {"id":{"name":"teste_1","path":"sprites/teste_1/teste_1.yy",},},
     {"id":{"name":"tl_back","path":"tilesets/tl_back/tl_back.yy",},},
     {"id":{"name":"tl_level","path":"tilesets/tl_level/tl_level.yy",},},
   ],

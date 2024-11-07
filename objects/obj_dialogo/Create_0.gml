@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+te/// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 texto = [];
 
