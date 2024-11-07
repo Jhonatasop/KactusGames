@@ -11,9 +11,9 @@
     {"name":"fnt_dialogo","order":1,"path":"fonts/fnt_dialogo/fnt_dialogo.yy",},
     {"name":"obj_dialogo","order":1,"path":"objects/obj_dialogo/obj_dialogo.yy",},
     {"name":"obj_npc","order":1,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"bukenin_qualhira","order":10,"path":"sprites/bukenin_qualhira/bukenin_qualhira.yy",},
     {"name":"spr_npc","order":8,"path":"sprites/spr_npc/spr_npc.yy",},
     {"name":"spr_token","order":1,"path":"sprites/spr_token/spr_token.yy",},
     {"name":"spt_teste","order":9,"path":"sprites/spt_teste/spt_teste.yy",},
-    {"name":"teste_1","order":10,"path":"sprites/teste_1/teste_1.yy",},
   ],
 }
