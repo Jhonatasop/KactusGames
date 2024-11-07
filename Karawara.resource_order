@@ -13,5 +13,6 @@
     {"name":"obj_npc","order":1,"path":"objects/obj_npc/obj_npc.yy",},
     {"name":"spr_npc","order":8,"path":"sprites/spr_npc/spr_npc.yy",},
     {"name":"spr_token","order":1,"path":"sprites/spr_token/spr_token.yy",},
+    {"name":"spt_teste","order":9,"path":"sprites/spt_teste/spt_teste.yy",},
   ],
 }
