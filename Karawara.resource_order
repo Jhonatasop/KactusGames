@@ -1,4 +1,17 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"boss","order":2,"path":"folders/Sprites/boss.yy",},
+    {"name":"cenario","order":3,"path":"folders/Sprites/cenario.yy",},
+    {"name":"inimigos","order":4,"path":"folders/Sprites/inimigos.yy",},
+    {"name":"level","order":5,"path":"folders/Sprites/level.yy",},
+    {"name":"player","order":6,"path":"folders/Sprites/player.yy",},
+    {"name":"Sons","order":7,"path":"folders/Sprites/Sons.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"fnt_dialogo","order":1,"path":"fonts/fnt_dialogo/fnt_dialogo.yy",},
+    {"name":"obj_dialogo","order":1,"path":"objects/obj_dialogo/obj_dialogo.yy",},
+    {"name":"obj_npc","order":1,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"spr_npc","order":8,"path":"sprites/spr_npc/spr_npc.yy",},
+    {"name":"spr_token","order":1,"path":"sprites/spr_token/spr_token.yy",},
+  ],
 }
