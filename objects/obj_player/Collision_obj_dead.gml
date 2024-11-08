@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
- morto = true;
+morto = true;
 sprite_index = spr_player_dead;
 velh = 0; // Parar movimento horizontal
 velv = 0; // Parar movimento vertical

@@ -139,7 +139,7 @@ if (_inimigo && inv_timer <= 0)
 			    sprite_index = spr_player_dead;
 			    velh = 0; // Parar movimento horizontal
 			    velv = 0; // Parar movimento vertical
-			    alarm[0] = 180; // Configura o alarme para reiniciar ou destruir o objeto
+			    alarm[0] = 90; // Configura o alarme para reiniciar ou destruir o objeto
 			    dano = false; // Desativa a possibilidade de tomar dano
 				if (image_speed <= 0)
 				{
