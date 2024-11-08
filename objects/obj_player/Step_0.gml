@@ -133,14 +133,16 @@ if (_inimigo && inv_timer <= 0)
 			
 
             // Verifica se a vida chegou a zero
-           if (vida <= 0)
+           if (vida <= 0 || sprite_index == spr_player_dead)
 			{
 			    morto = true;
 			    sprite_index = spr_player_dead;
 			    velh = 0; // Parar movimento horizontal
 			    velv = 0; // Parar movimento vertical
-			    alarm[0] = 180; // Configura o alarme para reiniciar ou destruir o objeto
+			    alarm[0] = 90; // Configura o alarme para reiniciar ou destruir o objeto
 			    dano = false; // Desativa a possibilidade de tomar dano
+				global.token -= global.token_na_fase_atual; // Perde os tokens da fase atual
+				global.token_na_fase_atual = 0; // Reseta os tokens da fase atual
 				if (image_speed <= 0)
 				{
 					image_alpha -= 0.01;
