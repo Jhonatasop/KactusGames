@@ -126,9 +126,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
     {"roomId":{"name":"rm_level_01","path":"rooms/rm_level_01/rm_level_01.yy",},},
     {"roomId":{"name":"rm_level_02","path":"rooms/rm_level_02/rm_level_02.yy",},},
-    {"roomId":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
