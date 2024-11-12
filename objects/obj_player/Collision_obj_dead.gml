@@ -1,14 +1,11 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-vida = -6;
-if (vida > 0)
+ if (vida > 0)
         {
             dano = true;
 
             // Valor do timer de dano
             timer_dano = tempo_dano;
             inv_timer = inv_tempo;
-            vida -= 1; // Diminui a vida em 1
+            vida -= 6; // Diminui a vida em 1
 			
 
             // Verifica se a vida chegou a zero
@@ -26,8 +23,6 @@ if (vida > 0)
 				{
 					image_alpha -= 0.01;
 				}
-				 // Reinicia a sala quando o jogador morrer
-				instance_destroy(); // Destroi o objeto atual do jogador
 			}
 			if (morto && sprite_index == spr_player_dead && image_index >= image_number - 1)
 			{
@@ -36,3 +31,16 @@ if (vida > 0)
 			}
 
         }
+    
+
+
+// Se o timer do dano é maior que 0, diminua ele
+if (timer_dano > 0)
+{
+    timer_dano--;
+}
+else
+{
+    // Acabou o timer de dano 
+    dano = false;
+}

@@ -93,6 +93,7 @@
     {"id":{"name":"spr_chao_mov","path":"sprites/spr_chao_mov/spr_chao_mov.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_chuva_1","path":"sprites/spr_chuva_1/spr_chuva_1.yy",},},
+    {"id":{"name":"spr_chuva_rain","path":"sprites/spr_chuva_rain/spr_chuva_rain.yy",},},
     {"id":{"name":"spr_chuva","path":"sprites/spr_chuva/spr_chuva.yy",},},
     {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},},
     {"id":{"name":"spr_curupira","path":"sprites/spr_curupira/spr_curupira.yy",},},

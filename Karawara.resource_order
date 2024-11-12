@@ -24,6 +24,7 @@
     {"name":"spr_chao_mov","order":1,"path":"sprites/spr_chao_mov/spr_chao_mov.yy",},
     {"name":"spr_chao","order":4,"path":"sprites/spr_chao/spr_chao.yy",},
     {"name":"spr_chuva_1","order":17,"path":"sprites/spr_chuva_1/spr_chuva_1.yy",},
+    {"name":"spr_chuva_rain","order":18,"path":"sprites/spr_chuva_rain/spr_chuva_rain.yy",},
     {"name":"spr_chuva","order":16,"path":"sprites/spr_chuva/spr_chuva.yy",},
     {"name":"spr_npc","order":8,"path":"sprites/spr_npc/spr_npc.yy",},
     {"name":"spr_rm_2_rain","order":8,"path":"sprites/spr_rm_2_rain/spr_rm_2_rain.yy",},

@@ -24,6 +24,7 @@ if (_chao)
 {
 	//vou diminuir o tempo de decidir andar
 	tempo_decidir_andar -= 0.5;
+	tempo_pular -= 0.5;
 	
 	//se o tempo acabou, eu decido se eu vou andar
 	if (tempo_decidir_andar <= 0)
@@ -42,6 +43,13 @@ if (_chao)
 		//resetando o tempo
 		tempo_decidir_andar = room_speed * 1;
 	}
+	// Decidindo pular
+    if (tempo_pular <= 0)
+    {
+        velv = forca_pulo; // Aplica força de pulo
+        pode_pular = false; // Desabilita o pulo até que toque o chão novamente
+        tempo_pular = room_speed * 2; // Reset do temporizador de pulo
+    }
 	
 	
 	//controlando a animação do inimigo
@@ -83,5 +91,18 @@ else
 if (dano && morto == false)
 {
 	sprite_index = spr_saci_dano
-	velh = 0;
+	
+	if (vida > 0)
+    {
+        vida -= 1;
+        dano = false; // Resetar o estado de dano para evitar subtrações múltiplas
+    }
+
+    // Se a vida chegou a 0, marcar como morto
+    if (vida <= 0)
+    {
+		boss_derrotado = true
+        morto = true;
+		velh = 0;
+    }
 }

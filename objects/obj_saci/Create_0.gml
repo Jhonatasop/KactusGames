@@ -15,7 +15,8 @@ vel = choose(1, -1);
 
 andando = choose(true, false);
 
-vida = 5;
+vida_max = 5;
+vida = vida_max;
 
 if (andando)
 {
@@ -30,3 +31,11 @@ if (andando)
 }
 
 tempo_decidir_andar = room_speed * 1
+
+// No evento Create
+pode_pular = true; // Indica se o boss pode pular
+tempo_pular = room_speed * 2; // Tempo até decidir pular
+forca_pulo = -10; // Força do pulo
+
+// No evento Create do boss
+boss_derrotado = false; // Marca se o boss foi derrotado
