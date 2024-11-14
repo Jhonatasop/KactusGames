@@ -130,6 +130,7 @@ if (_inimigo && inv_timer <= 0)
             timer_dano = tempo_dano;
             inv_timer = inv_tempo;
             vida -= 1; // Diminui a vida em 1
+			velh = 0
 			
 
             // Verifica se a vida chegou a zero
@@ -143,6 +144,8 @@ if (_inimigo && inv_timer <= 0)
 			    dano = false; // Desativa a possibilidade de tomar dano
 				global.token -= global.token_na_fase_atual; // Perde os tokens da fase atual
 				global.token_na_fase_atual = 0; // Reseta os tokens da fase atual
+				global.folhaencantada -= global.folhaencantada_na_fase_atual; // Perde os tokens da fase atual
+				global.folhaencantada_na_fase_atual = 0; // Reseta os tokens da fase atual
 				if (image_speed <= 0)
 				{
 					image_alpha -= 0.01;
