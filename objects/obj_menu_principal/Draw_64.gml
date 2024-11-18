@@ -2,28 +2,34 @@
 // Feather disable GM1020
 draw_sprite(spr_logo, 0, display_get_width()/2, display_get_height()/4);
 
-// Opções do Menu
-draw_text(display_get_width()/2, display_get_height()/2, "Iniciar Jogo");
-draw_text(display_get_width()/2, display_get_height()/2 + 50, "Configurações");
-draw_text(display_get_width()/2, display_get_height()/2 + 100, "Créditos");
-draw_text(display_get_width()/2, display_get_height()/2 + 150, "Sair");
 
-// Verifica cliques
-if (mouse_check_button_pressed(mb_left)) {
-    var mx = device_mouse_x_to_gui(0);
-    var my = device_mouse_y_to_gui(0);
-    
-    if (point_in_rectangle(mx, my, display_get_width()/2 - 50, display_get_height()/2 - 10, display_get_width()/2 + 50, display_get_height()/2 + 10)) {
-        // Iniciar o jogo
-        room_goto_next();
-    } else if (point_in_rectangle(mx, my, display_get_width()/2 - 50, display_get_height()/2 + 40, display_get_width()/2 + 50, display_get_height()/2 + 60)) {
-        // Abrir Configurações
-        room_goto(rm_configuracoes);
-    } else if (point_in_rectangle(mx, my, display_get_width()/2 - 50, display_get_height()/2 + 90, display_get_width()/2 + 50, display_get_height()/2 + 110)) {
-        // Abrir Créditos
-        room_goto(rm_creditos);
-    } else if (point_in_rectangle(mx, my, display_get_width()/2 - 50, display_get_height()/2 + 140, display_get_width()/2 + 50, display_get_height()/2 + 160)) {
-        // Sair do jogo
-        game_end();
-    }
+draw_set_font(fnt_menu);
+
+var dist = 55;
+
+var gui_largura = display_get_gui_width();
+var gui_altura = display_get_gui_height();
+var x1 = gui_largura/2;
+var y1 = gui_altura/2;
+
+for(var i = 0;i<op_max;i++)
+{
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	
+	if(index==i){
+		esc =1.2;
+		draw_set_color(c_yellow);
+	}else{
+		esc = 1;
+		draw_set_color(c_white)
+	}
+	
+	
+	draw_text_transformed(x1,y1 + (dist * i),opcoes[i], esc, esc, 0);
 }
+
+
+draw_set_halign(-1);
+draw_set_valign(-1);
+draw_set_font(-1);

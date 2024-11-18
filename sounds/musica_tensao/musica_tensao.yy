@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"musica_tensao",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audio_group_music",
+    "path":"audiogroups/audio_group_music",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -12,8 +12,8 @@
   "duration":198.95496,
   "name":"musica_tensao",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"audio_group_music",
+    "path":"folders/Sounds/audio_group_music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

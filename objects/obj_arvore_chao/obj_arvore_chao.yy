@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"rm1",
-    "path":"folders/Objetos/back/rm1.yy",
+    "path":"folders/Objetos/cenário/rm1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

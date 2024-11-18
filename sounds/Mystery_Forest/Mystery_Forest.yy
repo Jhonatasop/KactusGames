@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Mystery_Forest",
+  "audioGroupId":{
+    "name":"audio_group_menu",
+    "path":"audiogroups/audio_group_menu",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":232.32,
+  "name":"Mystery_Forest",
+  "parent":{
+    "name":"audio_group_menu",
+    "path":"folders/Sounds/audio_group_menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Mystery_Forest.ogg",
+  "type":0,
+  "volume":1.0,
+}

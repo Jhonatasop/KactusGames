@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mudar_musica",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mudar_musica",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

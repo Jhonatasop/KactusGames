@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"room_3_music_rain",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audio_group_music",
+    "path":"audiogroups/audio_group_music",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -12,8 +12,8 @@
   "duration":278.77405,
   "name":"room_3_music_rain",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"audio_group_music",
+    "path":"folders/Sounds/audio_group_music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

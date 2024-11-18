@@ -1,19 +1,12 @@
-draw_text(display_get_width()/2, display_get_height()/2 - 50, "Configurações");
+/// Exibe o menu de configurações
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_color(c_white);
 
-// Opções de Música e Efeitos Sonoros
-draw_text(display_get_width()/2, display_get_height()/2, "Música: " + (global.musica_ativa ? "Ligada" : "Desligada"));
-draw_text(display_get_width()/2, display_get_height()/2 + 50, "Efeitos Sonoros: " + (global.efeitos_sonoros ? "Ligados" : "Desligados"));
+var x1= display_get_width() / 2;
+var y1= display_get_height() / 2;
 
-// Detecta cliques para alterar configurações
-if (mouse_check_button_pressed(mb_left)) {
-    var mx = device_mouse_x_to_gui(0);
-    var my = device_mouse_y_to_gui(0);
-    
-    if (point_in_rectangle(mx, my, display_get_width()/2 - 50, display_get_height()/2 - 10, display_get_width()/2 + 50, display_get_height()/2 + 10)) {
-        // Alternar música
-        global.musica_ativa = !global.musica_ativa;
-    } else if (point_in_rectangle(mx, my, display_get_width()/2 - 50, display_get_height()/2 + 40, display_get_width()/2 + 50, display_get_height()/2 + 60)) {
-        // Alternar efeitos sonoros
-        global.efeitos_sonoros = !global.efeitos_sonoros;
-    }
-}
+draw_text(x, y - 50, "Configurações");
+draw_text(x, y, "Música: " + (global.musica_habilitada ? "Ligada" : "Desligada"));
+draw_text(x, y + 50, "Efeitos Sonoros: " + (global.efeitos_habilitados ? "Ligados" : "Desligados"));
+draw_text(x, y + 150, "Use as setas para navegar e Enter para alternar");
