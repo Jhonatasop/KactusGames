@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"deadsound",
+  "audioGroupId":{
+    "name":"audio_group_sound",
+    "path":"audiogroups/audio_group_sound",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.0065,
+  "name":"deadsound",
+  "parent":{
+    "name":"audio_group_sound",
+    "path":"folders/Sounds/audio_group_sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"deadsound.ogg",
+  "type":0,
+  "volume":1.0,
+}

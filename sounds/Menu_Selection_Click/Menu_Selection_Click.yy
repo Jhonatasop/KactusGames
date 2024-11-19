@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Menu_Selection_Click",
+  "audioGroupId":{
+    "name":"audio_group_menu",
+    "path":"audiogroups/audio_group_menu",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.227687,
+  "name":"Menu_Selection_Click",
+  "parent":{
+    "name":"audio_group_menu",
+    "path":"folders/Sounds/audio_group_menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Menu_Selection_Click.wav",
+  "type":0,
+  "volume":1.0,
+}

@@ -131,11 +131,24 @@ if (_inimigo && inv_timer <= 0)
             inv_timer = inv_tempo;
             vida -= 1; // Diminui a vida em 1
 			velh = 0
+		    if (global.efeitos_habilitados) {
+				audio_play_sound(damage, 1, false);
+		    } else if (!global.efeitos_habilitados) {
+				var som = audio_play_sound(damage, 0, false);
+		        audio_sound_gain(som, 0, 0);
+		    }
+
+		    
+			}
+			} 
 			
 
             // Verifica se a vida chegou a zero
            if (vida <= 0 || sprite_index == spr_player_dead)
 			{
+				if (global.efeitos_habilitados = true) {
+				    audio_play_sound(deadsound, 1, false); // Toca a música em loop
+				}
 			    morto = true;
 			    sprite_index = spr_player_dead;
 			    velh = 0; // Parar movimento horizontal
@@ -158,28 +171,19 @@ if (_inimigo && inv_timer <= 0)
 			}
 
         }
-    }
-}
-/// Evento Step
+    
 
-// Verifica se o jogador está no chão
-if (place_meeting(x, y + 1, obj_chao)) {
-    som_pode_tocar = true; // Permite que o som toque novamente
-} else {
-    som_pode_tocar = false; // Bloqueia o som quando o jogador está no ar
-	
-}
+
 
 // Tocar som ao pressionar Enter, mas somente se puder tocar
-if (keyboard_check_pressed(vk_enter)) { 
-    if (som_pode_tocar && global.efeitos_habilitados) {
-        var som = audio_play_sound(SFX_Jump_07, 0, false);
-        audio_sound_gain(som, 0.3, 0); // Ajusta o volume do som para 30%
-        som_pode_tocar = false; // Bloqueia o som até que o jogador toque o chão novamente
-    } else if (som_pode_tocar == false){
-		var som = audio_play_sound(SFX_Jump_07, 0, false);
-        audio_sound_gain(som,0, 0); // Ajusta o volume do som para 30%
-	}
+if (keyboard_check_pressed(vk_space) && place_meeting(x, y + 1, obj_chao)) { 
+		if (global.efeitos_habilitados) {
+	        var som = audio_play_sound(SFX_Jump_07, 0, false);
+	        audio_sound_gain(som, 0.3, 0); // Ajusta o volume do som para 30%
+		} else if (!global.efeitos_habilitados){
+			var som = audio_play_sound(SFX_Jump_07, 0, false);
+	        audio_sound_gain(som,0, 0); 
+		}
 }
 
 

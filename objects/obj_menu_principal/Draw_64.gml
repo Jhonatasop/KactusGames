@@ -1,7 +1,5 @@
 // Desenhe a logo do jogo no centro da tela
 // Feather disable GM1020
-draw_sprite(spr_logo, 0, display_get_width()/2, display_get_height()/4);
-
 
 draw_set_font(fnt_menu);
 

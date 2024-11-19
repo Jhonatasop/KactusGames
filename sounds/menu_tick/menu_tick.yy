@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"menu_tick",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.13932,
+  "name":"menu_tick",
+  "parent":{
+    "name":"audio_group_menu",
+    "path":"folders/Sounds/audio_group_menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"menu_tick.wav",
+  "type":0,
+  "volume":1.0,
+}
