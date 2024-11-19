@@ -6,7 +6,7 @@ event_inherited()
 
 //personalizando variaveis
 // ele vai decidir se ele pode amdar para a direita ou esquerda
-
+som_tocado = false;
 vel = choose(1, -1);
 
 andando = choose(true, false);

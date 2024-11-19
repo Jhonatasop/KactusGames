@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-opcoes=["novo jogo", "configuraçoes", "creditos", "sair"]
+opcoes=["Novo jogo", "Configurações", "Créditos", "Sair"]
 index = 0;
 op_max = array_length(opcoes);
 esc =1;

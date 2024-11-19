@@ -3,6 +3,7 @@
 if (morto)
 {
 	sprite_index = spr_porco_dead;
+
 	
 	//sumindo se acabou a animação
 	if (image_speed <= 0)
@@ -83,8 +84,23 @@ else
 	}
 }
 //checando se eu estou tomando dano
-if (dano && morto == false)
-{
-	sprite_index = spr_porco_dano
-	velh = 0;
+if (dano && morto == false) {
+    sprite_index = spr_porco_dano;
+    velh = 0;
+
+    // Tocar som apenas uma vez
+    if (!som_tocado) {
+        if (global.efeitos_habilitados && sprite_index == spr_porco_dano) {
+            audio_play_sound(punch_1, 1, false);
+        } else if (!global.efeitos_habilitados || sprite_index == spr_porco_dead || sprite_index == spr_porco_dano) {
+            var som = audio_play_sound(punch_1, 0, false);
+            audio_sound_gain(som, 0, 0);
+        }
+
+        // Marca o som como tocado
+        som_tocado = true;
+    }
+} else {
+    // Reseta a variável caso o dano termine
+    som_tocado = false;
 }

@@ -12,3 +12,5 @@ else if (index== 2){
 else if (index == 3){
 	game_end();
 }
+var som = audio_play_sound(menu_tick, 0, false);
+audio_sound_gain(som,0.5, 0); 

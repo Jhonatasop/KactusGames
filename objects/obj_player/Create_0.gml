@@ -27,9 +27,5 @@ inputs = {
 	jump	: vk_space
 }
 
-/// Evento Create
-tempo_ultimo_som = 0; // Momento do último som tocado
-intervalo_som = 0.5; // Intervalo mínimo entre os sons em segundos (0.5s neste caso)
 
-/// Evento Create
-som_pode_tocar = true; // Controla se o som pode ser tocado
+som_tocado = false;
