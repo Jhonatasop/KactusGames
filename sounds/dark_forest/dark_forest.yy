@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"dark_forest",
+  "audioGroupId":{
+    "name":"audio_group_music",
+    "path":"audiogroups/audio_group_music",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":163.23917,
+  "name":"dark_forest",
+  "parent":{
+    "name":"audio_group_music",
+    "path":"folders/Sounds/audio_group_music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"dark_forest.mp3",
+  "type":0,
+  "volume":1.0,
+}

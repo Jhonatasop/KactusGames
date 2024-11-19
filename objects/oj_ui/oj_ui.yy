@@ -8,8 +8,8 @@
   "name":"oj_ui",
   "overriddenProperties":[],
   "parent":{
-    "name":"parentes",
-    "path":"folders/Objetos/parentes.yy",
+    "name":"room",
+    "path":"folders/Objetos/parentes/room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

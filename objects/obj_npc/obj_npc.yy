@@ -9,8 +9,8 @@
   "name":"obj_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"room",
+    "path":"folders/Objetos/parentes/room.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc",
-    "path":"sprites/spr_npc/spr_npc.yy",
+    "name":"spr_npc_idle",
+    "path":"sprites/spr_npc_idle/spr_npc_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

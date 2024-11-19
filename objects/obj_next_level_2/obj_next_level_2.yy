@@ -9,8 +9,8 @@
   "name":"obj_next_level_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"parentes",
-    "path":"folders/Objetos/parentes.yy",
+    "name":"portais",
+    "path":"folders/Objetos/parentes/portais.yy",
   },
   "parentObjectId":null,
   "persistent":false,

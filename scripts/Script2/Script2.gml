@@ -10,8 +10,6 @@ global.folhaencantada_na_fase_atual = 0; // Tokens coletados na fase atual
 global.fase_atual = 1;           // Fase atual do jogo (inicia em 1)
 global.folhaencantada_por_fase = array_create(10, 0); // Array para armazenar tokens por fase
 
-global.sound_enabled = true;
-global.musica_ativa = true;
-global.efeitos_sonoros = true;
 
-audio_play_sound(Forest_room_1, 10, true);
+global.musica_habilitada = true; // Música habilitada por padrão
+global.efeitos_habilitados = true; // Efeitos sonoros habilitados por padrão

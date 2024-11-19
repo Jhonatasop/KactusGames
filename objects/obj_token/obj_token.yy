@@ -8,8 +8,8 @@
   "name":"obj_token",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"room",
+    "path":"folders/Objetos/parentes/room.yy",
   },
   "parentObjectId":{
     "name":"obj_pickup_parent",

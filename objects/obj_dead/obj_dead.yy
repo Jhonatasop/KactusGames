@@ -6,8 +6,8 @@
   "name":"obj_dead",
   "overriddenProperties":[],
   "parent":{
-    "name":"parentes",
-    "path":"folders/Objetos/parentes.yy",
+    "name":"cenário",
+    "path":"folders/Objetos/cenário.yy",
   },
   "parentObjectId":null,
   "persistent":false,

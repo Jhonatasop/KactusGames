@@ -8,8 +8,8 @@
   "name":"obj_background",
   "overriddenProperties":[],
   "parent":{
-    "name":"back",
-    "path":"folders/Objetos/back.yy",
+    "name":"cenário",
+    "path":"folders/Objetos/cenário.yy",
   },
   "parentObjectId":null,
   "persistent":false,

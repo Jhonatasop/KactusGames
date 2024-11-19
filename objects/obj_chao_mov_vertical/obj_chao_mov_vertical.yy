@@ -10,8 +10,8 @@
   "name":"obj_chao_mov_vertical",
   "overriddenProperties":[],
   "parent":{
-    "name":"back",
-    "path":"folders/Objetos/back.yy",
+    "name":"cenário",
+    "path":"folders/Objetos/cenário.yy",
   },
   "parentObjectId":{
     "name":"obj_chao",

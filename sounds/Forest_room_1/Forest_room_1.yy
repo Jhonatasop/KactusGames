@@ -12,8 +12,8 @@
   "duration":44.76,
   "name":"Forest_room_1",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"audio_group_music",
+    "path":"folders/Sounds/audio_group_music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
