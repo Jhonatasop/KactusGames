@@ -11,7 +11,7 @@
             // Verifica se a vida chegou a zero
            if (vida <= 0 || sprite_index == spr_player_dead)
 			{
-				if (global.efeitos_habilitados = true) {
+				if (global.efeitos_habilitados == true) {
 				    audio_play_sound(deadsound, 1, false); // Toca a música em loop
 				}
 			    morto = true;

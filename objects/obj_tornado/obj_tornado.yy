@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tornado",
-    "path":"sprites/spr_tornado/spr_tornado.yy",
+    "name":"spr_poder_saci",
+    "path":"sprites/spr_poder_saci/spr_poder_saci.yy",
   },
   "spriteMaskId":null,
   "visible":true,

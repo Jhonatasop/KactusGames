@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"strong_wind",
+  "audioGroupId":{
+    "name":"audio_group_sound",
+    "path":"audiogroups/audio_group_sound",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.332245,
+  "name":"strong_wind",
+  "parent":{
+    "name":"audio_group_sound",
+    "path":"folders/Sounds/audio_group_sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"strong_wind.mp3",
+  "type":0,
+  "volume":1.0,
+}

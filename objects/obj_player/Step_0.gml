@@ -175,7 +175,7 @@ if (_inimigo && inv_timer <= 0)
 
 
 
-// Tocar som ao pressionar Enter, mas somente se puder tocar
+// Tocar som ao pular, mas somente se puder tocar
 if (keyboard_check_pressed(vk_space) && place_meeting(x, y + 1, obj_chao)) { 
 		if (global.efeitos_habilitados) {
 	        var som = audio_play_sound(SFX_Jump_07, 0, false);
