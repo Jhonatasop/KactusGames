@@ -4,38 +4,33 @@
 // inherit the parent event
 event_inherited()
 
-//personalizando variaveis
-// ele vai decidir se ele pode amdar para a direita ou esquerda
-velh	= 0;
-velv	= 0;
-vel		= 3;
-grav	= .3;
+// Personalizando variáveis
+velh = 0;
+velv = 0;
 
-vel = choose(1, -1);
-
-andando = choose(true, false);
+// Aumentar a velocidade e garantir movimento contínuo
+vel = choose(2, -2); // Velocidade inicial maior, escolhendo entre positivo e negativo
+velh = vel;          // Velocidade horizontal sempre ativa
 
 vida_max = 5;
 vida = vida_max;
 
-if (andando)
-{
-	if (andando)
-		{
-			velh = choose (vel, -vel);
-		}
-		else
-		{
-			velh = 0;
-		}
-}
+// Tempo de movimentação ajustado
+tempo_decidir_andar = room_speed * 0.5; // Decide direção mais frequentemente
+pode_pular = true; 
+tempo_pular = room_speed * 0.8;         // Decide pular mais frequentemente
+forca_pulo = -10;                       // Força do pulo
 
-tempo_decidir_andar = room_speed * 1
+// Controle de dano e invencibilidade
+dano = false;
+tempo_dano = room_speed * 1;
+timer_dano = 0;
 
-// No evento Create
-pode_pular = true; // Indica se o boss pode pular
-tempo_pular = room_speed * 1; // Tempo até decidir pular
-forca_pulo = -10; // Força do pulo
+inv_tempo = room_speed * 2;
+inv_timer = 0;
 
-// No evento Create do boss
-boss_derrotado = false; // Marca se o boss foi derrotado
+timer_poder = 0;
+
+timer_risada = 2;
+
+boss_derrotado = false;

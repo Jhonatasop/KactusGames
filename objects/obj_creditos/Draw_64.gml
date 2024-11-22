@@ -1,6 +1,6 @@
 // Desenhe a logo do jogo no centro da tela
 // Feather disable GM1020
-draw_sprite(spr_logo, 0, display_get_width() / 2, display_get_height() / 4);
+//draw_sprite(spr_logo, 0, display_get_width() / 2, display_get_height() / 4);
 
 draw_set_font(fnt_menu);
 
@@ -21,7 +21,7 @@ for (var i = 0; i < op_max; i++) {
     // Desenha os textos começando do topo ajustado
     draw_text(x1, y1 + (dist * i), descricao[i]);
 	draw_set_color(c_yellow)
-	draw_text(x1, y1 + (dist * (op_max + 2)), "Voltar(Enter)");
+	draw_text(x1, y1 + (dist * (op_max + 2)), "Voltar");
 	draw_set_color(c_white)
 }
 

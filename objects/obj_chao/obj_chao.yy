@@ -37,5 +37,5 @@
     "name":"spr_chao",
     "path":"sprites/spr_chao/spr_chao.yy",
   },
-  "visible":false,
+  "visible":true,
 }

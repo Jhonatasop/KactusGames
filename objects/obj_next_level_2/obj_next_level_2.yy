@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"next_level",
-    "path":"sprites/next_level/next_level.yy",
+    "name":"spt_portal_fase",
+    "path":"sprites/spt_portal_fase/spt_portal_fase.yy",
   },
   "spriteMaskId":null,
   "visible":true,
