@@ -214,10 +214,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
     {"roomId":{"name":"rm_menu_principal","path":"rooms/rm_menu_principal/rm_menu_principal.yy",},},
     {"roomId":{"name":"rm_level_01","path":"rooms/rm_level_01/rm_level_01.yy",},},
     {"roomId":{"name":"rm_level_02","path":"rooms/rm_level_02/rm_level_02.yy",},},
-    {"roomId":{"name":"rm_level_03","path":"rooms/rm_level_03/rm_level_03.yy",},},
     {"roomId":{"name":"rm_creditos","path":"rooms/rm_creditos/rm_creditos.yy",},},
     {"roomId":{"name":"rm_menu_configuracao","path":"rooms/rm_menu_configuracao/rm_menu_configuracao.yy",},},
     {"roomId":{"name":"rm_instrucao","path":"rooms/rm_instrucao/rm_instrucao.yy",},},
