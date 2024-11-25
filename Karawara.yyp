@@ -88,6 +88,7 @@
     {"id":{"name":"obj_curupira","path":"objects/obj_curupira/obj_curupira.yy",},},
     {"id":{"name":"obj_dead","path":"objects/obj_dead/obj_dead.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
+    {"id":{"name":"obj_enter_menu","path":"objects/obj_enter_menu/obj_enter_menu.yy",},},
     {"id":{"name":"obj_enter","path":"objects/obj_enter/obj_enter.yy",},},
     {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
