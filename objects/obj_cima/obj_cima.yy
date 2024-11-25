@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_seta_left",
+  "%Name":"obj_cima",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_seta_left",
+  "name":"obj_cima",
   "overriddenProperties":[],
   "parent":{
     "name":"gameplay",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_seta_left",
-    "path":"sprites/spr_seta_left/spr_seta_left.yy",
+    "name":"spr_cima",
+    "path":"sprites/spr_cima/spr_cima.yy",
   },
   "spriteMaskId":null,
   "visible":true,

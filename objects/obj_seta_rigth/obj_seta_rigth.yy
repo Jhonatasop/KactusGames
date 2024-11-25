@@ -9,8 +9,8 @@
   "name":"obj_seta_rigth",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"gameplay",
+    "path":"folders/Objetos/gameplay.yy",
   },
   "parentObjectId":null,
   "persistent":false,

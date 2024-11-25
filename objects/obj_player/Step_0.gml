@@ -8,10 +8,11 @@ if (morto) return;
 var _chao = place_meeting(x, y + 1, obj_chao);
 
 
-var _left, _right, _jump;
+var _left, _right, _jump, _enter;
 _left = keyboard_check(inputs.left);
 _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
+_enter = keyboard_check_pressed(inputs.enter);
 
 //só posso me controlar se eu nao tomei dano = se o timer do dano esta zerado
 if (timer_dano <= 0)
