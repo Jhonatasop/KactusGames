@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"inimigos",
-    "path":"folders/Sprites/inimigos.yy",
+    "name":"curupira",
+    "path":"folders/Sprites/boss/curupira.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
