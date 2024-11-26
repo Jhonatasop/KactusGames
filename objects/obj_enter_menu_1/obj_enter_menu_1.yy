@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu_instrucao",
-  "eventList":[],
+  "%Name":"obj_enter_menu_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_menu_instrucao",
+  "name":"obj_enter_menu_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu",
-    "path":"folders/Objetos/parentes/menu.yy",
+    "name":"gameplay",
+    "path":"folders/Objetos/gameplay.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bc_menu",
-    "path":"sprites/bc_menu/bc_menu.yy",
+    "name":"spr_enter",
+    "path":"sprites/spr_enter/spr_enter.yy",
   },
   "spriteMaskId":null,
   "visible":true,

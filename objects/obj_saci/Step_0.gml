@@ -116,6 +116,9 @@ if (dano && morto == false)
             boss_derrotado = true;
             morto = true;
             velh = 0;  // Parar movimento horizontal
+			if (global.efeitos_habilitados = true){
+				audio_play_sound(saci_morte,1,false)
+			}
         }
     }
 }

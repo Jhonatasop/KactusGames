@@ -117,6 +117,9 @@ if (dano && morto == false)
             boss_derrotado = true;
             morto = true;
             velh = 0;  // Parar movimento horizontal
+			if (global.efeitos_habilitados = true){
+				audio_play_sound(curupira_morte,1,false)
+			}
         }
     }
 }
@@ -149,7 +152,7 @@ if (!morto)
     if (timer_risada <= 0 && global.efeitos_habilitados = true)
     {
         // Escolhe aleatoriamente uma das risadas
-        var risada = choose(risada1, risada2, risada3, risada4, risada5, risada6, risada7, risada8, risada9);
+        var risada = choose(risada_curupira_1, risada_curupira_2, risada_curupira_3, risada_curupira_4, risada_curupira_5, risada_curupira_6);
         if (!audio_is_playing(risada)){
 	        // Toca o som escolhido
 	        audio_play_sound(risada, 1, false);

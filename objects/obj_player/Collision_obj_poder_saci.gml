@@ -23,7 +23,7 @@
            if (vida <= 0 || sprite_index == spr_player_dead)
 			{
 				if (global.efeitos_habilitados == true) {
-				    audio_play_sound(deadsound, 1, false); // Toca a música em loop
+				    audio_play_sound(morte_piata, 1, false); // Toca a música em loop
 				}
 			    morto = true;
 			    sprite_index = spr_player_dead;
@@ -35,6 +35,9 @@
 				global.token_na_fase_atual = 0; // Reseta os tokens da fase atual
 				global.folhaencantada -= global.folhaencantada_na_fase_atual; // Perde os tokens da fase atual
 				global.folhaencantada_na_fase_atual = 0; // Reseta os tokens da fase atual
+				global.flame -= global.flame_na_fase_atual; // Perde os tokens da fase atual
+				global.flame_na_fase_atual = 0; // Reseta os tokens da fase atual
+				
 				if (image_speed <= 0)
 				{
 					image_alpha -= 0.01;

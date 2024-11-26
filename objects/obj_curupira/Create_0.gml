@@ -9,17 +9,17 @@ velh = 0;
 velv = 0;
 
 // Aumentar a velocidade e garantir movimento contínuo
-vel = choose(2, -2); // Velocidade inicial maior, escolhendo entre positivo e negativo
+vel = choose(3, -3); // Velocidade inicial maior, escolhendo entre positivo e negativo
 velh = vel;          // Velocidade horizontal sempre ativa
 
-vida_max = 8;
+vida_max = 5;
 vida = vida_max;
 
 // Tempo de movimentação ajustado
 tempo_decidir_andar = room_speed * 0.5; // Decide direção mais frequentemente
 pode_pular = true; 
 tempo_pular = room_speed * 0.8;         // Decide pular mais frequentemente
-forca_pulo = -10;                       // Força do pulo
+forca_pulo = -6;                       // Força do pulo
 
 // Controle de dano e invencibilidade
 dano = false;

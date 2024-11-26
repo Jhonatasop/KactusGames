@@ -19,7 +19,7 @@ vida = vida_max;
 tempo_decidir_andar = room_speed * 0.5; // Decide direção mais frequentemente
 pode_pular = true; 
 tempo_pular = room_speed * 0.8;         // Decide pular mais frequentemente
-forca_pulo = -10;                       // Força do pulo
+forca_pulo = -6;                       // Força do pulo
 
 // Controle de dano e invencibilidade
 dano = false;
