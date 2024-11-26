@@ -2,7 +2,7 @@
 // Verificar se o boss está morto
 if (morto)
 {
-    sprite_index = spr_curupira;
+    sprite_index = spr_curupira_dead;
     
     // Sumir gradualmente após a animação
     if (image_speed <= 0)
@@ -46,7 +46,7 @@ if (_chao)
 
     if (velh != 0 && dano == false)
     {
-        sprite_index = spr_curupira;
+        sprite_index = spr_curupira_run;
         image_xscale = sign(velh);
     }
 
@@ -100,7 +100,7 @@ else
 if (dano && morto == false)
 {
     // Aplicar lógica de dano
-    sprite_index = spr_curupira;
+    sprite_index = spr_curupira_dano;
 
     if (vida > 0 && inv_timer <= 0)  // Verifica se está invencível
     {

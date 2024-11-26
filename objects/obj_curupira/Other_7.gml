@@ -9,7 +9,7 @@ if (morto)
         instance_destroy(); // Só destrói se estiver completamente invisível
     }
 }
-else if (sprite_index == spr_curupira)
+else if (sprite_index == spr_curupira_dano)
 {
     // Resetar a animação para o estado padrão após o dano
     sprite_index = spr_curupira; 
