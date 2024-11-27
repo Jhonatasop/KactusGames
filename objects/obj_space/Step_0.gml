@@ -6,6 +6,7 @@ var cam_y = camera_get_view_y(view_camera[0]);
 
 // Defina offsets fixos para a seta (ajuste conforme necessário)
 if (object_index == obj_space) {
-    x = cam_x + 580;          // 50 pixels a partir da borda esquerda da câmera
+    x = cam_x + 520;          // 50 pixels a partir da borda esquerda da câmera
     y = cam_y + 320;         // 400 pixels a partir da parte superior da câmera
 }
+
