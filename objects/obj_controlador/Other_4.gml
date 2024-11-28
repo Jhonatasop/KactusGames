@@ -18,6 +18,10 @@ switch (room) {
     case rm_level_03:
         mudar_musica(room_3_music_rain);
         break;
+	
+	 case rm_level_04:
+        mudar_musica(musica_tensao);
+        break;
 
     default:
         mudar_musica(noone);

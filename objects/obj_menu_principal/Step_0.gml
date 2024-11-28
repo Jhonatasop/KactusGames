@@ -19,3 +19,8 @@ if (keyboard_check_pressed(vk_enter)){
 	var som = audio_play_sound(menu_tick, 0, false);
 	audio_sound_gain(som,0.5, 0); 
 }
+
+
+
+// Emite partículas continuamente
+part_emitter_burst(particle_system, particle_emitter, particle_type, 5); // Emite 5 partículas por frame

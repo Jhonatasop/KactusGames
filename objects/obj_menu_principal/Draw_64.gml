@@ -19,7 +19,7 @@ for(var i = 0;i<op_max;i++)
 	
 	if(index==i){
 		esc =1.2;
-		draw_set_color(c_yellow);
+		draw_set_color(c_green);
 	}else{
 		esc = 1;
 		draw_set_color(c_white)

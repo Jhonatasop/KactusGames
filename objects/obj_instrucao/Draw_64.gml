@@ -20,7 +20,7 @@ for (var i = 0; i < op_max; i++) {
 
     // Desenha os textos começando do topo ajustado
     draw_text(x1, y1 + (dist * i), descricao[i]);
-	draw_set_color(c_yellow)
+	draw_set_color(c_green)
 	draw_text(x1, y1 + (dist * (op_max + 1)), "Voltar");
 	draw_set_color(c_white)
 }

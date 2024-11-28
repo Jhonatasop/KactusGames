@@ -70,7 +70,7 @@ if (_chao)
 
     // Controlar a animação do inimigo
     if (velh != 0 && !dano)
-    {
+    {	
         sprite_index = spr_ghost_idle;
         image_xscale = sign(velh);
     }
@@ -113,6 +113,7 @@ if (dano && !morto)
 
     if (vida > 0 && inv_timer <= 0) // Se não estiver invencível
     {
+		velh = 0;
         vida -= 1;
         dano = false;
 
