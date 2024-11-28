@@ -1,4 +1,9 @@
 switch (room) {
+	case rm_intro:
+        audio_group_set_gain(audio_group_music, global.musica_habilitados ? 1 : 0, 0);
+        mudar_musica(Menu_Choice);
+        break;
+	
     case rm_menu_principal:
     case rm_creditos:
     case rm_menu_configuracao:
